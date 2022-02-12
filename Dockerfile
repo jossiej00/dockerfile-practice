@@ -1,4 +1,4 @@
 # Author: Jossie Jiang
 FROM ubcdsci/jupyterlab
 
-RUN conda install --yes -c conda-forge rasterio=0.35
+RUN conda install -c conda-forge rasterio=0.35
