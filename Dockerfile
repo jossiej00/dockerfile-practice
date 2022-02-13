@@ -1,4 +1,4 @@
 # Author: Jossie Jiang
 FROM ubcdsci/jupyterlab
 
-RUN conda install geopandas=0.3.0
+RUN conda create -n test_env -c conda-forge python=3.7 jupyterlab pandas=1.0.2
